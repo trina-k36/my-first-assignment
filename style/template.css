@@ -1,0 +1,35 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+.first{
+    background-image: url("c:\my projects\B12A01-landing-launchpad\Assets\Hero-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    color: rgb(10, 28, 194);
+}
+.signup{
+    
+    color: white;
+    background-color: rgb(10, 28, 194);
+    border: none;
+    border-radius: 3px ;
+    padding: 5px 10px;
+}
+.main{
+    text-align: center;
+    margin: 100px 20px;
+}
+
+.stayfocused{
+    color: white;
+    background-color: rgb(10, 28, 194);
+    border: none;
+    border-radius: 3px ;
+    padding: 5px 10px;
+}
