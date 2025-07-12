@@ -1,4 +1,12 @@
 
+.body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    background-color: rgb(247, 247, 252);
+    
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -11,11 +19,13 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     padding: 50px 0px;
-    margin: 0px;
+    margin: 0%;
 }
 
 .logo{
     color: rgb(10, 28, 194);
+    font-weight: bolder;
+    
 }
 .signup{
     
@@ -113,3 +123,54 @@ img{
     height: 30px;
     width: 30px;
 }
+.get-in-touch{
+    margin: 30px;
+}
+.get{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contact{
+    text-align: left;
+    font-weight: 10000;
+    font-size: xx-large;
+
+}
+.inputs{
+    padding: 5px 10px;
+}
+.touch{
+    color: white;
+    background-color: rgb(10, 28, 194);
+    border: none;
+    border-radius: 3px ;
+    padding: 5px 50px;
+}
+.footer{
+    text-align: center;
+    background-color: white;
+    padding: 20px 60px;
+}
+.footer-logo{
+    color: rgb(10, 28, 194);
+    font-size: 2rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.footer-text{
+    color: darkslategray;
+}
+.nav a{
+    color: darkslategray;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    
+
+}
+  
